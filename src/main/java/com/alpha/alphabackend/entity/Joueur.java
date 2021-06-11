@@ -33,6 +33,16 @@ public class Joueur {
     private List<Partie> partie ;
  
  public Joueur(){}
+
+
+	public Joueur( String nom, String prenom, String pseudo, String password, String email) {
+		this.nom = nom;
+		this.prenom = prenom;
+		this.pseudo = pseudo;
+		this.password = password;
+		this.email = email;
+	}
+ 
  public Joueur(int id, String nom, String prenom, String pseudo, String password, String email) {
 		super();
 		this.id = id;

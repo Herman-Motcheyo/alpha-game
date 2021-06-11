@@ -1,4 +1,4 @@
-package api;
+package com.alpha.alphabackend.api;
 
 import java.util.List;
 
