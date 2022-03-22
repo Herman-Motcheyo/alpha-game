@@ -1,0 +1,468 @@
+header
+{
+    width: 150px;
+    height: 100vh;
+    background: #862fe9;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+body
+{
+    overflow-y: hidden;
+}
+.hero__content
+{
+    margin-left: 15vw;
+    position: absolute;
+    z-index: 999;
+}
+.btnMyStyle
+{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border-radius: 4px;
+    min-width: 10px;
+    font-size: .5em;
+}
+.langage a 
+{
+    color: rgb(139, 136, 136);
+    display: block;
+    font-size: .9em;
+}
+.question
+{
+    width: 65%;
+    height: 10vh;
+    background: #285bc9;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 20% 0% 20%;
+    font-size: 1.5em;
+}
+.slide
+{
+    left: 20vw;
+}
+.zone_jeux
+{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+}
+
+.myUl
+{
+    margin-top: 5vh;
+    height: 10vh;
+}
+
+.asides
+{
+    position: fixed;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 99;
+    background: #4c049e
+}
+.linkPopop
+{
+    position: absolute;
+    top: 90%;
+}
+.pt-120
+{
+    width: 80%;
+    margin-left: 18%;
+    position: relative;
+}
+.allGame
+{
+    height: 100vh;
+}
+
+.card
+{
+    display: inline-block;
+}
+
+.cont
+{
+    position: relative;
+    bottom: 150px;
+}
+.ecart
+{
+    height: 40vh;
+}
+.overview-card
+{
+    height: 150px;
+    cursor: pointer;
+}
+
+.zoomIn :hover
+{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.section-title
+{
+    font-size: 2em;
+}
+.scrollTop
+{
+    position: absolute;
+    top: 0;
+}
+.allGame
+{
+  position: relative;
+    top: 30%;
+}
+.timer
+{
+    position: absolute;
+    right: 50%;
+    font-size: 2em;
+    TEXT-TRANSFORM: UPPERCASE;
+    top: 5%;
+}
+
+.saisie
+{
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  width: 70%;
+  
+}
+h3
+{
+    color: #ffffff;
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    text-transform: uppercase;
+}
+.hidden
+{
+  position: absolute;
+  visibility: hidden;
+  left: 20vw;
+}
+.saisie input
+{
+    border: 1px solid rgb(240 12 164);
+    color: rgb(255 0 35);
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 60%;
+    height: 10vh;
+    font-size: 1em;
+    display: flex;
+    justify-self: center;
+    padding: 9px;
+    align-items: center;
+}
+.dashbord
+{
+    width: 17%;
+    border-radius: 10px;
+    height: 90vh;
+    border: 1px solid #ffffff;
+    position: fixed;
+    margin: 5% 0% 0% 0%;
+    background: #4c049e;
+    text-align: center;
+}
+.dashbord table
+{
+    width: 98%;
+    margin: auto;
+}
+.dashbord table td
+{
+    border: 1px solid #08e4a2;
+    color: #08e4a2;
+    font-size: .8em;
+}
+td img
+{
+    width: 15px;
+}
+.speak
+{
+    background: chartreuse;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 1% 3% 1% 3%;
+    border-radius: 4px;
+}
+.zone_jeux
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hideHeader
+{
+    height: 40px;
+    width: 44px;
+    position: fixed;
+    font-size: 1em;
+    top: 5%;
+    right: 3%;
+    z-index: 99;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+    color: white;
+    background-image: -moz-linear-gradient(89deg, #5f16a9 0%, #cf15f8 100%);
+    background-image: -webkit-linear-gradient(
+89deg
+, #5f16a9 0%, #cf15f8 100%);
+    background-image: -ms-linear-gradient(89deg, #5f16a9 0%, #cf15f8 100%);
+    line-height: 77px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 25%);
+}
+
+.fallingWord
+{
+    background: rgb(0, 102, 255);
+    color: white;
+    padding: 1%;
+    display: flex;
+    align-self: start;
+    animation: falling 5s linear forwards;
+    position: absolute;
+}
+@keyframes falling
+{
+    0%
+    {
+        top: 0;
+    }
+    100%
+    {
+        top: 70vh;
+        visibility: hidden;
+
+    }
+}
+.choiceWord
+{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    position: absolute;
+    bottom: 12%;
+    right: 5%;
+    justify-content: center;
+}
+.word
+{
+
+    width: 0%;
+    text-transform: uppercase;
+    padding: 1% 10% 1% 10%;
+    background: #ff0023;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.dash
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: right;
+    position: relative;
+    padding: 0;
+}
+.dash .content
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.add
+{
+    display: flex;
+    flex-direction: row;
+}
+.icone_add
+{
+    background: #08e4a2;
+    color: white;
+    border-radius: 4px;
+    padding: 1% 2% 1% 2%;
+    margin-right: 1% ;
+    cursor: pointer;
+}
+.allPlayeur
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.allPlayeur input
+{
+    background: #285bc9;
+    border: 1px solid #4c049e;
+    padding: 1%;
+    color: #7f049e;
+}
+.totalParagraphe
+{
+    z-index: 999;
+    color: white;
+    animation: fade 5s linear forwards;
+}
+@keyframes fade
+{
+    0%
+    {
+       filter: opacity(10);
+    }
+    100%
+    {
+       filter: opacity(0);
+        visibility: hidden;
+        position: absolute;
+    }
+}
+.playeurName
+{
+    position: fixed;
+    top: 5%;
+    right: 7%;
+    background: rgb(255 0 35);
+    color: white;
+    padding: .5%;
+    border-radius: 5px;
+}
+.buttEvolution
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 10%;
+}
+.next, .prev, .dot
+{
+    width: 150px;
+    padding: 1%;
+    margin-left: 100px;
+    border-radius: 4px;
+}
+.eixtpopop
+{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.set
+{
+    margin-bottom: 10px;
+}
+.eixtpopop p 
+{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.zone_image
+{
+    height: 50vh;
+    width: 80%;
+    margin: 2% 0% 0% 10%; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.zone_true
+{
+    height: 50vh;
+    width: 80%;
+    margin: 2% 0% 0% 10%; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.zone_image .image
+{
+    width: 30%;
+    height: 60%;
+    background: #08e4a2;
+}
+.zone_true p
+{
+    background: #08e4a2;
+    padding: 5%;
+}
+.introduce
+{
+   color: white;
+   position: absolute;
+   bottom: 0;
+   right: 5%;
+   font-size: 2em;
+}
+.dash_container table td
+{
+    position: relative;
+}
+td span
+{
+    width: 11%;
+    height: 3.2vh;
+    background: #862fe9;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+}
+
+@media (max-width: 991px) {
+    .asides
+    {
+        width: 100px;
+    }
+    .pt-120
+    {
+        width: 70%;
+        margin-left: 30%;
+    }
+    .section-title
+    {
+        font-size: 1.5em;
+        margin-top: 30px;
+    }
+    .hideHeader
+    {
+        top: 1%;
+    }
+    .playeurName
+    {
+        top: 96%;
+        left: 1%;
+        width: max-content;
+        font-size: .5em;
+        z-index: 9999999;
+    }
+}
